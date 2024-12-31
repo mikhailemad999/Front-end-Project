@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+.product-details {
+  padding: 1rem;
+  text-align: center;
+}
+
+.spinner {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.toast {
+  background-color: #ff4444;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
